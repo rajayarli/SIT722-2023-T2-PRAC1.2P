@@ -1,0 +1,23 @@
+var express = require('express');
+var router = express.Router();
+
+const nameList=[
+  {"id":1,"term":"Azure","description":"Microsoft Azure, often referred to as Azure, is a cloud computing platform run by Microsoft, which offers access, management, and development of applications and services through global data centers.","references":"https://en.wikipedia.org/wiki/Microsoft_Azure"},
+  {"id":2,"term":"DAST","description":"A dynamic application security testing (DAST) is a non functional testing process where one can assess an application using certain techniques and the end result of such testing process covers security weaknesses and vulnerabilities present in an application. ","references":"https://en.wikipedia.org/wiki/Dynamic_application_security_testing"},
+  {"id":3,"term":"metadata","description":"Data about data is known as meta data","references":"https://www.abs.gov.au/statistics/understanding-statistics/statistical-terms-and-concepts/"},
+  {"id":4,"term":"ci","description":" continuous integration, which is an automation process for developers. Successful CI means new code changes to an app are regularly built, tested, and merged to a shared repository.","references":"https://www.redhat.com/en/topics/devops/what-is-ci-cd#:~:text=The%20%22CI%22%20in%20CI%2F,merged%20to%20a%20shared%20repository."},
+  {"id":5,"term":"cd","description":"CD refers to continuous delivery and/or continuous deployment, which are related concepts that sometimes get used interchangeably. Both are about automating further stages of the pipeline, but they’re sometimes used separately to illustrate just how much automation is happening.","references":"https://www.redhat.com/en/topics/devops/what-is-ci-cd#:~:text=The%20%22CI%22%20in%20CI%2F,merged%20to%20a%20shared%20repository."},
+  {"id":6,"term":"sql injection","description":"An SQL injection, sometimes abbreviated to SQLi, is a type of vulnerability in which an attacker uses a piece of SQL (structured query language) code to manipulate a database and gain access to potentially valuable information","references":"https://www.kaspersky.com/resource-center/definitions/sql-injection"},
+  {"id":7,"term":"microservices","description":"Microservices is an architectural design for building a distributed application using containers. They get their name because each function of the application operates as an independent service. This architecture allows for each service to scale or update without disrupting other services in the application.","references":"https://avinetworks.com/glossary/microservice/#:~:text=Microservices%20is%20an%20architectural%20design,other%20services%20in%20the%20application."},
+  {"id":8,"term":"container","description":"Containers are lightweight packages of your application code together with dependencies such as specific versions of programming language runtimes and libraries required to run your software services.","references":"https://cloud.google.com/learn/what-are-containers#:~:text=Containers%20are%20lightweight%20packages%20of,to%20run%20your%20software%20services."},
+  {"id":9,"term":"version control","description":"Version control, also known as source control, is the practice of tracking and managing changes to software code. Version control systems are software tools that help software teams manage changes to source code over time","references":"https://www.atlassian.com/git/tutorials/what-is-version-control#:~:text=Version%20control%2C%20also%20known%20as,to%20source%20code%20over%20time."},
+  {"id":10,"term":"scrum","description":"Scrum is a framework for project management that emphasizes teamwork, accountability and iterative progress toward a well-defined goal. The framework begins with a simple premise: Start with what can be seen or known. After that, track the progress and tweak, as necessary.","references":"https://www.techtarget.com/searchsoftwarequality/definition/Scrum#:~:text=Scrum%20is%20a%20framework%20for,progress%20and%20tweak%2C%20as%20necessary."},
+  {"id":11,"term":"agile","description":"The Agile methodology is a project management approach that involves breaking the project into phases and emphasizes continuous collaboration and improvement. Teams follow a cycle of planning, executing, and evaluating.","references":"https://www.atlassian.com/agile#:~:text=The%20Agile%20methodology%20is%20a,planning%2C%20executing%2C%20and%20evaluating."},
+
+];
+/* GET home page. */
+router.get('/', function(req, res, next) {
+  res.render('index', { title: 'SIT722 DevOps Glossary', subtitle:'Welcome to my site, Here i am Defining some keywords from devops ',names: nameList });
+});
+
+module.exports = router;

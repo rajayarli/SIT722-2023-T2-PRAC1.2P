@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+    </style>
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <table>
+      <caption>Some Keywords used in devops</caption>
+      <colgroup>
+        <col>
+        <col span="2" class="id">
+        <col span="2" class="term">
+    </colgroup>
+      <tr>
+        <th>ID#</th>
+        <th>Term</th>
+        <th>Description</th>
+        <th>References</th>
+      </tr>
+      <% names.forEach((name) =>{ %>
+      <tr>
+        <td><%= name.id %></td>
+        <td><%= name.term %></td>
+        <td><%= name.description %></td>
+        <td><%= name.references %></td>
+      </tr>
+      <% }) %>
+    </table>
+  </body>
+</html>
