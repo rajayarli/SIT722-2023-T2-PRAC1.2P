@@ -1,4 +1,4 @@
-# SIT722-2023-T2-PRAC1.2P
+#SIT722-2023-T2-glossary
 
 Task 1.2p Output
 Created a page with 11 tech terms that were discussed.
