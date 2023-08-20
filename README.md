@@ -1,7 +1,7 @@
 #SIT722-2023-T2-glossary
 
 Task 1.2p Output
-Created a page with 11 tech terms that were discussed.
+Created a page with 10 tech terms that were discussed.
 ![image](https://github.com/rajayarli/SIT722-2023-T2-PRAC1.2P/assets/62141897/e97d2903-bfc7-4b32-a0d1-da1543b1fe68)
 
 Task 3.2p Output
