@@ -11,3 +11,8 @@ Committed to the repo with 10 more tech terms.
 Task 5.2p Output
 Committed to the repo with 10 more tech terms.
 ![image](https://github.com/rajayarli/SIT722-2023-T2-glossary/assets/62141897/ef2e70c9-56ac-469d-8153-18d8042217a4)
+
+Task 7.2p Output
+Committed to the repo with 10 more tech terms.
+![image](https://github.com/rajayarli/SIT722-2023-T2-glossary/assets/62141897/a511a61d-2f96-4d6d-a0f9-33f2c8c324ea)
+
