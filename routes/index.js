@@ -176,7 +176,68 @@ const nameList=[
   "term": "Docker Swarm Stacks",
   "description": "Docker Swarm Stacks are collections of services defined in a Compose file and deployed to a Docker Swarm cluster using the docker stack command.",
   "references": "https://docs.docker.com/engine/swarm/stack-deploy/"
+},
+{
+  "id": 31,
+  "term": "Azure Virtual Machines",
+  "description": "Azure Virtual Machines (VMs) are scalable, on-demand virtualized computing resources provided by Microsoft Azure, allowing users to run virtualized Windows or Linux servers in the cloud.",
+  "references": "https://azure.microsoft.com/en-us/services/virtual-machines/"
+},
+{
+  "id": 32,
+  "term": "Kubernetes (kubectl)",
+  "description": "Kubernetes (kubectl) is an open-source container orchestration platform used to automate the deployment, scaling, and management of containerized applications.",
+  "references": "https://kubernetes.io/docs/reference/kubectl/overview/"
+},
+{
+  "id": 33,
+  "term": "Terraform",
+  "description": "Terraform is an open-source infrastructure as code (IaC) tool used to define and provision infrastructure resources across various cloud providers, including Azure.",
+  "references": "https://www.terraform.io/"
+},
+{
+  "id": 34,
+  "term": "Azure Resource Group",
+  "description": "An Azure Resource Group is a logical container for managing and organizing Azure resources, allowing you to manage resources as a single entity.",
+  "references": "https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/overview"
+},
+{
+  "id": 35,
+  "term": "Kubernetes Pod",
+  "description": "A Kubernetes Pod is the smallest deployable unit in Kubernetes, representing a single instance of a running process in a cluster.",
+  "references": "https://kubernetes.io/docs/concepts/workloads/pods/pod/"
+},
+{
+  "id": 36,
+  "term": "Terraform Modules",
+  "description": "Terraform Modules are reusable, encapsulated collections of Terraform configurations that enable you to create and manage infrastructure resources consistently.",
+  "references": "https://www.terraform.io/docs/language/modules/index.html"
+},
+{
+  "id": 37,
+  "term": "Azure App Service Plan",
+  "description": "An Azure App Service Plan is a set of virtual machines used to host web applications and APIs in Azure App Service.",
+  "references": "https://docs.microsoft.com/en-us/azure/app-service/overview-hosting-plans"
+},
+{
+  "id": 38,
+  "term": "Kubernetes Deployment",
+  "description": "A Kubernetes Deployment is a resource object used to define and manage the desired state of a replica set, ensuring the availability of a specified number of pod replicas.",
+  "references": "https://kubernetes.io/docs/concepts/workloads/controllers/deployment/"
+},
+{
+  "id": 39,
+  "term": "Terraform State",
+  "description": "Terraform State is a representation of the infrastructure being managed, allowing Terraform to track changes and manage resources accurately.",
+  "references": "https://www.terraform.io/docs/language/state/index.html"
+},
+{
+  "id": 40,
+  "term": "Azure DevOps",
+  "description": "Azure DevOps is a set of development tools, including version control, build automation, release management, and more, offered by Microsoft Azure to support DevOps practices.",
+  "references": "https://azure.microsoft.com/en-us/services/devops/"
 }
+
 ];
 /* GET home page. */
 router.get('/', function(req, res, next) {
