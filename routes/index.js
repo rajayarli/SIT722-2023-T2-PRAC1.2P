@@ -236,7 +236,68 @@ const nameList=[
   "term": "Azure DevOps",
   "description": "Azure DevOps is a set of development tools, including version control, build automation, release management, and more, offered by Microsoft Azure to support DevOps practices.",
   "references": "https://azure.microsoft.com/en-us/services/devops/"
+},
+{
+  "id": 41,
+  "term": "Bitbucket Pipelines",
+  "description": "Bitbucket Pipelines is a continuous integration and continuous delivery (CI/CD) tool provided by Bitbucket that allows you to automate the building, testing, and deployment of your code.",
+  "references": "https://www.atlassian.com/bitbucket/pricing/details/pipelines"
+},
+{
+  "id": 42,
+  "term": "Kubernetes Namespace",
+  "description": "A Kubernetes Namespace is a logical partition within a cluster that allows you to create multiple virtual clusters within the same physical cluster, providing isolation and resource management.",
+  "references": "https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/"
+},
+{
+  "id": 43,
+  "term": "CI/CD Pipeline",
+  "description": "A CI/CD Pipeline is an automated workflow that includes building, testing, and deploying code changes, ensuring that software is continuously delivered to production with speed and reliability.",
+  "references": "https://www.redhat.com/en/topics/devops/what-is-ci-cd"
+},
+{
+  "id": 44,
+  "term": "Bitbucket Repositories",
+  "description": "Bitbucket Repositories are Git repositories hosted on Bitbucket, allowing teams to collaborate on code, manage versions, and implement Git workflows.",
+  "references": "https://www.atlassian.com/bitbucket"
+},
+{
+  "id": 45,
+  "term": "Kubernetes Cluster",
+  "description": "A Kubernetes Cluster is a collection of nodes (physical or virtual machines) that run containerized applications managed by Kubernetes.",
+  "references": "https://kubernetes.io/docs/concepts/overview/components/"
+},
+{
+  "id": 46,
+  "term": "CI/CD Artifact",
+  "description": "A CI/CD Artifact is a packaged and versioned result of a CI/CD build process, such as a compiled application, ready for deployment to various environments.",
+  "references": "https://aws.amazon.com/devops/continuous-integration/#:~:text=Continuous%20integration%20(CI)%20is%20the%20practice,resulting%20in%20faster%20delivery%20cycles."
+},
+{
+  "id": 47,
+  "term": "Bitbucket Pull Request",
+  "description": "A Bitbucket Pull Request is a feature that enables developers to propose code changes to a Git repository hosted on Bitbucket and request peer review before merging.",
+  "references": "https://support.atlassian.com/bitbucket-cloud/docs/create-a-pull-request/"
+},
+{
+  "id": 48,
+  "term": "Kubernetes Operator",
+  "description": "A Kubernetes Operator is a method of packaging, deploying, and managing a Kubernetes application using custom resources and controllers to automate complex operational tasks.",
+  "references": "https://kubernetes.io/docs/concepts/extend-kubernetes/operator/"
+},
+{
+  "id": 49,
+  "term": "CI/CD Deployment Pipeline",
+  "description": "A CI/CD Deployment Pipeline is a series of automated steps that take code from a repository and deploy it to a production environment, ensuring the software's quality and reliability.",
+  "references": "https://www.redhat.com/en/topics/devops/what-is-cicd"
+},
+{
+  "id": 50,
+  "term": "Bitbucket Branching Strategy",
+  "description": "A Bitbucket Branching Strategy defines how code changes are managed and organized in a Git repository on Bitbucket, ensuring collaboration and code quality.",
+  "references": "https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow"
 }
+
 
 ];
 /* GET home page. */
